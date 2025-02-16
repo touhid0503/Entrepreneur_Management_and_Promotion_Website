@@ -1,1 +1,1 @@
-# Entrepreneur_Management_and_Promotion_Website_Proposal
+# Entrepreneur_Management_and_Promotion_Website
