@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="CSS/student_reg.css">
+  </head>
+
+<body>
+  <?php include('navbar.html'); ?>
+
+  <section id="student">
+    <div class="container">
+      <h2>Student Registration</h2>
+      <form action="student_register.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="id">Student ID:</label>
+        <input type="text" id="id" name="id" required>
+
+        <label for="department">Department:</label>
+        <input type="text" id="department" name="department" required>
+
+        <label for="batch">Batch:</label>
+        <input type="text" id="batch" name="batch" required>
+
+        <label for="semester">Semester:</label>
+        <input type="number" id="semester" name="semester" min="1" max="8" required>  <label for="section">Section:</label>
+        <input type="text" id="section" name="section" required>
+
+        <button type="submit">Register</button>
+      </form>
+    </div>
+  </section>
+
+</body>
+
+</html>

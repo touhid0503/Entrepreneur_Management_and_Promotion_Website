@@ -1,0 +1,55 @@
+/* General styles */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Form container */
+.admission_form {
+  width: 500px; /* Adjust width as needed */
+  margin: 50px auto; /* Center the form horizontally */
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Labels */
+.label_text {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Input fields */
+.input_deg, .input_txt {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+.input_txt { /* Style for textarea specifically */
+  height: 100px; /* Adjust height as needed */
+}
+
+/* Submit button */
+.btn-primary {
+  background-color: #4CAF50; /* Green color */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Additional styling (optional) */
+.adm_int {
+  margin-bottom: 15px; /* Add space between form fields */
+}

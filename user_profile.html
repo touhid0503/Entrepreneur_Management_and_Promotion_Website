@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Student Profile</title>
+  <link rel="stylesheet" href="CSS/student_profile.css"> </head>
+
+<body>
+  <section class="profile-container">
+    <div class="profile-picture">
+      <img src="profile_picture.jpg" alt="Student Picture"> </div>
+    <div class="profile-info">
+      <h2>Student Information</h2>
+      <ul>
+        <li>Name: <span id="student-name"></span></li>
+        <li>Department: <span id="department"></span></li>
+        <li>Batch: <span id="batch"></span></li>
+        <li>Semester: <span id="semester"></span></li>
+        <li>Section: <span id="section"></span></li>
+      </ul>
+    </div>
+    <div class="profile-result"> <h2>Results (GPA)</h2>
+      <p id="gpa"></p>
+    </div>
+    <div class="profile-attendance">
+      <h2>Attendance</h2>
+      <p id="attendance"></p>
+    </div>
+  </section>
+
+  <script>
+    document.getElementById("student-name").textContent = "John Doe"; // Replace with actual data
+    document.getElementById("department").textContent = "Computer Science";
+    // ... Populate other information similarly ...
+  </script>
+</body>
+
+</html>
