@@ -121,10 +121,13 @@ With a focus on innovation, scalability, and user engagement, this project has t
 
 ## 👨‍💻 Developed By
 
-**Md. Touhidul Islam**
+**Md. Touhidul Islam** 
+
 **Maula Bin Mortuza**  
+
 💼 Academic Project | Software Development Lab 3
-📅 Year: 2025
+
+📅 Year: 2024-2025
 
 ---
 
